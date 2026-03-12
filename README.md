@@ -15,13 +15,13 @@ Our research team has conducted an extensive security analysis on IoT devices fr
 </td>
 <td align="center" width="200">
 <br>
-<h1>76</h1>
+<h1>64</h1>
 <b>📡 Device Models</b>
 <br><br>
 </td>
 <td align="center" width="200">
 <br>
-<h1>516</h1>
+<h1>515</h1>
 <b>🏷️ CVEs Assigned</b>
 <br><br>
 </td>
