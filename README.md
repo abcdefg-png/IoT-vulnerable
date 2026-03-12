@@ -1,48 +1,50 @@
-# 🔒 IoT Vulnerability Research Report
+# IoT Vulnerability Research Report
 
-## 📋 Overview
+## Overview
 
-Our research team has conducted an extensive security analysis across IoT devices from multiple vendors. Through systematic vulnerability discovery and responsible disclosure, we have achieved significant results in improving IoT security.
+Our research team has conducted an extensive security analysis on IoT devices from multiple vendors. Through systematic vulnerability discovery and responsible disclosure, we have identified a large number of security issues and obtained **CVE** identifiers for the vast majority of them.
 
+<div align="center">
 <table>
-  <tr>
-    <th>📊 Metric</th>
-    <th>Count</th>
-  </tr>
-  <tr>
-    <td>🏭 Vendors Affected</td>
-    <td><b>5</b></td>
-  </tr>
-  <tr>
-    <td>📡 Device Models Affected</td>
-    <td><b>76</b></td>
-  </tr>
-  <tr>
-    <td>🐛 Vulnerabilities Discovered</td>
-    <td><b>526</b></td>
-  </tr>
-  <tr>
-    <td>🏷️ CVEs Assigned</td>
-    <td><b>516</b></td>
-  </tr>
+<tr>
+<td align="center" width="200">
+<br>
+<h1>5</h1>
+<b>🏭 Vendors Affected</b>
+<br><br>
+</td>
+<td align="center" width="200">
+<br>
+<h1>76</h1>
+<b>📡 Device Models</b>
+<br><br>
+</td>
+<td align="center" width="200">
+<br>
+<h1>516</h1>
+<b>🏷️ CVEs Assigned</b>
+<br><br>
+</td>
+</tr>
 </table>
+</div>
 
 ---
 
-## 📈 Summary by Vendor
+## Summary by Vendor
 
-| Vendor | Affected Models | Vulnerabilities | CVEs Assigned |
-| :---: | :---: | :---: | :---: |
-| **Tenda** | 40 | 352 | 350 |
-| **TOTOLINK** | 26 | 93 | 93 |
-| **D-Link** | 6 | 77 | 69 |
-| **TP-LINK** | 3 | 3 | 3 |
-| **Linksys** | 1 | 1 | 0 |
-| **Total** | **76** | **526** | **516** |
+| Vendor | Affected Models | CVEs Assigned |
+| :---: | :---: | :---: |
+| **Tenda** | 37 | 350 |
+| **TOTOLINK** | 17 | 93 |
+| **D-Link** | 6 | 69 |
+| **TP-LINK** | 3 | 3 |
+| **Linksys** | 1 | 0 |
+| **Total** | **64** | **515** |
 
 ---
 
-## 🔍 Vulnerability Type Distribution
+## Vulnerability Type Distribution
 
 | Vulnerability Type | Description |
 | :--- | :--- |
@@ -55,11 +57,11 @@ Our research team has conducted an extensive security analysis across IoT device
 
 ---
 
-## 🏭 Detailed Findings by Vendor
+## Detailed Findings by Vendor
 
-### <img src="https://img.shields.io/badge/Tenda-352%20Vulnerabilities-red?style=for-the-badge" alt="Tenda">
+### <img src="https://img.shields.io/badge/Tenda-350%20CVEs-red?style=for-the-badge" alt="Tenda">
 
-We discovered vulnerabilities across **40** different device models from **Tenda**, revealing a total of **352 vulnerabilities** and obtaining **350 CVEs**.
+We discovered security issues across **37** different device models from **Tenda**, obtaining a total of **350 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
@@ -69,32 +71,31 @@ We discovered vulnerabilities across **40** different device models from **Tenda
 - **F Series**: F1202, F1203, FH1201, FH1202, FH1203, FH1205, FH1206
 - **W Series**: W9, W15E, W20E, W30E
 - **TX Series**: TX9
-- **G Series**: G3
-- **4G Series**: 4G300
+- **G Series**: G3, 4G300
 - **i Series**: i21, i22
 - **O Series**: O1, O3, O5, O6
 
 </details>
 
 <details>
-<summary><b>🐛 Vulnerability Breakdown (Click to Expand)</b></summary>
+<summary><b>🏷️ CVE Breakdown by Type (Click to Expand)</b></summary>
 
-| Category | Vulnerabilities | CVEs |
-| :--- | :---: | :---: |
-| Buffer Overflow | ~290 | ~290 |
-| Command Injection | ~20 | ~20 |
-| Improper Access Controls | 10 | 10 |
-| CSRF | 6 | 6 |
-| Information Disclosure | 2 | 0 |
-| **Total** | **352** | **350** |
+| Category | CVEs |
+| :--- | :---: |
+| Buffer Overflow | ~290 |
+| Command Injection | ~20 |
+| Improper Access Controls | ~24 |
+| CSRF | 6 |
+| Information Disclosure | ~10 |
+| **Total** | **350** |
 
 </details>
 
 ---
 
-### <img src="https://img.shields.io/badge/TOTOLINK-93%20Vulnerabilities-orange?style=for-the-badge" alt="TOTOLINK">
+### <img src="https://img.shields.io/badge/TOTOLINK-93%20CVEs-orange?style=for-the-badge" alt="TOTOLINK">
 
-We discovered vulnerabilities across **26** different device models from **TOTOLINK**, revealing a total of **93 vulnerabilities** and obtaining **93 CVEs**.
+We discovered security issues across **17** different device models from **TOTOLINK**, obtaining a total of **93 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
@@ -111,24 +112,24 @@ We discovered vulnerabilities across **26** different device models from **TOTOL
 </details>
 
 <details>
-<summary><b>🐛 Vulnerability Breakdown (Click to Expand)</b></summary>
+<summary><b>🏷️ CVE Breakdown by Type (Click to Expand)</b></summary>
 
-| Category | Vulnerabilities | CVEs |
-| :--- | :---: | :---: |
-| Buffer Overflow | ~52 | ~52 |
-| Command Injection | ~11 | ~11 |
-| Improper Access Controls | 9 | 9 |
-| Hard-Coded Password | 7 | 7 |
-| Information Disclosure | 5 | 5 |
-| **Total** | **93** | **93** |
+| Category | CVEs |
+| :--- | :---: |
+| Buffer Overflow | ~52 |
+| Command Injection | ~11 |
+| Improper Access Controls | 9 |
+| Hard-Coded Password | 7 |
+| Information Disclosure | ~14 |
+| **Total** | **93** |
 
 </details>
 
 ---
 
-### <img src="https://img.shields.io/badge/D--Link-77%20Vulnerabilities-blue?style=for-the-badge" alt="D-Link">
+### <img src="https://img.shields.io/badge/D--Link-69%20CVEs-blue?style=for-the-badge" alt="D-Link">
 
-We discovered vulnerabilities across **6** different device models from **D-Link**, revealing a total of **77 vulnerabilities** and obtaining **69 CVEs**.
+We discovered security issues across **6** different device models from **D-Link**, obtaining a total of **69 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
@@ -138,47 +139,47 @@ We discovered vulnerabilities across **6** different device models from **D-Link
 </details>
 
 <details>
-<summary><b>🐛 Vulnerability Breakdown (Click to Expand)</b></summary>
+<summary><b>🏷️ CVE Breakdown by Type (Click to Expand)</b></summary>
 
-| Category | Vulnerabilities | CVEs |
-| :--- | :---: | :---: |
-| Buffer Overflow | ~41 | ~41 |
-| Improper Access Controls | ~33 | ~25 |
-| Information Disclosure | ~3 | ~1 |
-| **Total** | **77** | **69** |
+| Category | CVEs |
+| :--- | :---: |
+| Buffer Overflow | ~41 |
+| Improper Access Controls | ~25 |
+| Information Disclosure | ~3 |
+| **Total** | **69** |
 
 </details>
 
 ---
 
-### <img src="https://img.shields.io/badge/TP--LINK-3%20Vulnerabilities-green?style=for-the-badge" alt="TP-LINK">
+### <img src="https://img.shields.io/badge/TP--LINK-3%20CVEs-green?style=for-the-badge" alt="TP-LINK">
 
-We discovered vulnerabilities across **3** different device models from **TP-LINK**, revealing a total of **3 vulnerabilities** and obtaining **3 CVEs**.
+We discovered security issues across **3** different device models from **TP-LINK**, obtaining a total of **3 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
 
 - TL-WR841ND v11
 - TL-WR941ND v6
-- TL-WR740N V6
+- TL-WR740N v6
 
 </details>
 
 <details>
-<summary><b>🐛 Vulnerability Breakdown (Click to Expand)</b></summary>
+<summary><b>🏷️ CVE Breakdown by Type (Click to Expand)</b></summary>
 
-| Category | Vulnerabilities | CVEs |
-| :--- | :---: | :---: |
-| Buffer Overflow | 3 | 3 |
-| **Total** | **3** | **3** |
+| Category | CVEs |
+| :--- | :---: |
+| Buffer Overflow | 3 |
+| **Total** | **3** |
 
 </details>
 
 ---
 
-### <img src="https://img.shields.io/badge/Linksys-1%20Vulnerability-lightgrey?style=for-the-badge" alt="Linksys">
+### <img src="https://img.shields.io/badge/Linksys-0%20CVE-lightgrey?style=for-the-badge" alt="Linksys">
 
-We discovered vulnerabilities in **1** device model from **Linksys**, revealing **1 vulnerability**.
+We discovered a security issue in **1** device model from **Linksys**, obtaining **0 CVE**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
@@ -188,23 +189,29 @@ We discovered vulnerabilities in **1** device model from **Linksys**, revealing 
 </details>
 
 <details>
-<summary><b>🐛 Vulnerability Breakdown (Click to Expand)</b></summary>
+<summary><b>🏷️ CVE Breakdown by Type (Click to Expand)</b></summary>
 
-| Category | Vulnerabilities | CVEs |
-| :--- | :---: | :---: |
-| Information Disclosure | 1 | 0 |
-| **Total** | **1** | **0** |
+| Category | CVEs |
+| :--- | :---: |
+| Information Disclosure | 0 |
+| **Total** | **0** |
 
 </details>
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-All vulnerabilities were discovered through responsible research practices. We have followed responsible disclosure procedures and reported all findings to the respective vendors prior to public disclosure. The information provided here is intended for educational and defensive purposes only.
+All vulnerabilities were discovered through responsible research practices. We followed responsible disclosure procedures and reported all findings to the respective vendors prior to public disclosure. The information provided here is intended for educational and defensive purposes only.
 
 ---
 
-## 👥 Team
+## Team
 
 This research was conducted by our security research team through extensive collaborative effort, including firmware analysis, reverse engineering, and vulnerability verification across hundreds of IoT devices.
+
+---
+
+<p align="center">
+  <i>If you find this research valuable, please consider giving this repository a ⭐</i>
+</p>
