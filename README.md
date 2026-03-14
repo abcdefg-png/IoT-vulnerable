@@ -16,12 +16,12 @@ Our research team has conducted an extensive security analysis on IoT devices fr
 <td align="center" width="200">
 <br>
 <h1>64</h1>
-<b>📡 Device Models</b>
+<b>📡 Device Firmwares</b>
 <br><br>
 </td>
 <td align="center" width="200">
 <br>
-<h1>515</h1>
+<h1>516</h1>
 <b>🏷️ CVEs Assigned</b>
 <br><br>
 </td>
@@ -33,14 +33,14 @@ Our research team has conducted an extensive security analysis on IoT devices fr
 
 ## Summary by Vendor
 
-| Vendor | Affected Models | CVEs Assigned |
+| Vendor | Affected Firmwares | CVEs Assigned |
 | :---: | :---: | :---: |
 | **Tenda** | 37 | 350 |
-| **TOTOLINK** | 17 | 93 |
+| **TOTOLINK** | 17 | 94 |
 | **D-Link** | 6 | 69 |
 | **TP-LINK** | 3 | 3 |
 | **Linksys** | 1 | 0 |
-| **Total** | **64** | **515** |
+| **Total** | **64** | **516** |
 
 ---
 
@@ -61,7 +61,7 @@ Our research team has conducted an extensive security analysis on IoT devices fr
 
 ### <img src="https://img.shields.io/badge/Tenda-350%20CVEs-red?style=for-the-badge" alt="Tenda">
 
-We discovered security issues across **37** different device models from **Tenda**, obtaining a total of **350 CVEs**.
+We discovered security issues across **37** different device firmwares from **Tenda**, obtaining a total of **350 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
@@ -95,12 +95,12 @@ We discovered security issues across **37** different device models from **Tenda
 
 ### <img src="https://img.shields.io/badge/TOTOLINK-93%20CVEs-orange?style=for-the-badge" alt="TOTOLINK">
 
-We discovered security issues across **17** different device models from **TOTOLINK**, obtaining a total of **93 CVEs**.
+We discovered security issues across **17** different device firmwares from **TOTOLINK**, obtaining a total of **93 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
 
-- **A Series**: A3100R, A3300R, A3600R, A3700R, A7000R
+- **A Series**: A3000RU, A3100R, A3300R, A3600R, A3700R, A7000R
 - **CA Series**: CA300-PoE
 - **CP Series**: CP450, CP900
 - **EX Series**: EX200, EX1200L
@@ -116,12 +116,12 @@ We discovered security issues across **17** different device models from **TOTOL
 
 | Category | CVEs |
 | :--- | :---: |
-| Buffer Overflow | ~52 |
+| Buffer Overflow | ~53 |
 | Command Injection | ~11 |
 | Improper Access Controls | 9 |
 | Hard-Coded Password | 7 |
 | Information Disclosure | ~14 |
-| **Total** | **93** |
+| **Total** | **94** |
 
 </details>
 
@@ -129,7 +129,7 @@ We discovered security issues across **17** different device models from **TOTOL
 
 ### <img src="https://img.shields.io/badge/D--Link-69%20CVEs-blue?style=for-the-badge" alt="D-Link">
 
-We discovered security issues across **6** different device models from **D-Link**, obtaining a total of **69 CVEs**.
+We discovered security issues across **6** different device firmwares from **D-Link**, obtaining a total of **69 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
@@ -154,7 +154,7 @@ We discovered security issues across **6** different device models from **D-Link
 
 ### <img src="https://img.shields.io/badge/TP--LINK-3%20CVEs-green?style=for-the-badge" alt="TP-LINK">
 
-We discovered security issues across **3** different device models from **TP-LINK**, obtaining a total of **3 CVEs**.
+We discovered security issues across **3** different device firmwares from **TP-LINK**, obtaining a total of **3 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
@@ -179,7 +179,7 @@ We discovered security issues across **3** different device models from **TP-LIN
 
 ### <img src="https://img.shields.io/badge/Linksys-0%20CVE-lightgrey?style=for-the-badge" alt="Linksys">
 
-We discovered a security issue in **1** device model from **Linksys**, obtaining **0 CVE**.
+We discovered a security issue in **1** device firmware from **Linksys**, obtaining **0 CVE**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
@@ -202,16 +202,10 @@ We discovered a security issue in **1** device model from **Linksys**, obtaining
 
 ## Disclaimer
 
-All vulnerabilities were discovered through responsible research practices. We followed responsible disclosure procedures and reported all findings to the respective vendors prior to public disclosure. The information provided here is intended for educational and defensive purposes only.
+All vulnerabilities were discovered through responsible research practices. The information provided here is intended for educational and defensive purposes only.
 
 ---
 
 ## Team
 
-This research was conducted by our security research team through extensive collaborative effort, including firmware analysis, reverse engineering, and vulnerability verification across hundreds of IoT devices.
-
----
-
-<p align="center">
-  <i>If you find this research valuable, please consider giving this repository a ⭐</i>
-</p>
+This research was conducted by our security research team through extensive collaborative effort, including firmware analysis, reverse engineering, and vulnerability verification across hundreds of IoT firmwares.
