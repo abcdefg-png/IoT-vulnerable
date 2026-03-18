@@ -9,19 +9,19 @@ Our research team has conducted an extensive security analysis on IoT devices fr
 <tr>
 <td align="center" width="200">
 <br>
-<h1>5</h1>
+<h1>8</h1>
 <b>🏭 Vendors Affected</b>
 <br><br>
 </td>
 <td align="center" width="200">
 <br>
-<h1>64</h1>
+<h1>66</h1>
 <b>📡 Device Firmwares</b>
 <br><br>
 </td>
 <td align="center" width="200">
 <br>
-<h1>516</h1>
+<h1>536</h1>
 <b>🏷️ CVEs Assigned</b>
 <br><br>
 </td>
@@ -36,27 +36,35 @@ Our research team has conducted an extensive security analysis on IoT devices fr
 Our vulnerability discovery work is supported by the following research papers:
 
 - **IoTBec: An Accurate and Efficient Recurring Vulnerability Detection Framework for Black Box IoT Devices**
-  *NDSS 2026* | CCF-A
+  *NDSS 2026* | **CCF-A**
 
 - **FalconScope: Effective and Efficient Detection of Hidden Web Interfaces in IoT Devices**
-  *WWW 2026* | CCF-A
+  *WWW 2026* | **CCF-A**
+
+- **Bridge: High-Order Taint Vulnerabilities Detection in Linux-based IoT Firmware**
+  *IEEE S&P 2026* | **CCF-A**
+
+- **Bond: Constraint-Directed Fuzzing for Automated Validation of Taint Analysis  Results in Linux-based IoT Firmware**
+  *USENIX Security 2026* | **CCF-A**
 
 - **LoopSCC: Summarizing Complex Multi-branch Nested Loops via Periodic Oscillation Interval**
-  *ICSE 2026* | CCF-A
+  *ICSE 2026* | **CCF-A**
 
 - **FirmSV: Detecting Stored Vulnerabilities in IoT Firmware using Static Taint Analysis**
   *CSCWD 2026* | CCF-C
+
+<sub>*Papers under submission: ISSTA, TSE*</sub>
 
 ## Summary by Vendor
 
 | Vendor | Affected Firmwares | CVEs Assigned |
 | :---: | :---: | :---: |
-| **Tenda** | 37 | 350 |
-| **TOTOLINK** | 17 | 94 |
+| **Tenda** | 38 | 363 |
+| **TOTOLINK** | 18 | 101 |
 | **D-Link** | 6 | 69 |
 | **TP-LINK** | 3 | 3 |
 | **Linksys** | 1 | 0 |
-| **Total** | **64** | **516** |
+| **Total** | **66** | **536** |
 
 ---
 
@@ -77,13 +85,13 @@ Our vulnerability discovery work is supported by the following research papers:
 
 ### <img src="https://img.shields.io/badge/Tenda-350%20CVEs-red?style=for-the-badge" alt="Tenda">
 
-We discovered security issues across **37** different device firmwares from **Tenda**, obtaining a total of **350 CVEs**.
+We discovered security issues across **38** different device firmwares from **Tenda**, obtaining a total of **363 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
 
 - **A Series**: A18, AC5, AC6, AC7, AC8v4, AC9, AC10v4, AC10U, AC15, AC18, AC23, AC500
-- **AX Series**: AX1803, AX1806
+- **AX Series**: AX3, AX1803, AX1806
 - **F Series**: F1202, F1203, FH1201, FH1202, FH1203, FH1205, FH1206
 - **W Series**: W9, W15E, W20E, W30E
 - **TX Series**: TX9
@@ -98,12 +106,11 @@ We discovered security issues across **37** different device firmwares from **Te
 
 | Category | CVEs |
 | :--- | :---: |
-| Buffer Overflow | ~290 |
-| Command Injection | ~20 |
-| Improper Access Controls | ~24 |
-| CSRF | 6 |
-| Information Disclosure | ~10 |
-| **Total** | **350** |
+| Buffer Overflow | 323 |
+| Command Injection | 25 |
+| Improper Access Controls | 10 |
+| CSRF | 5 |
+| **Total** | **363** |
 
 </details>
 
@@ -111,12 +118,12 @@ We discovered security issues across **37** different device firmwares from **Te
 
 ### <img src="https://img.shields.io/badge/TOTOLINK-93%20CVEs-orange?style=for-the-badge" alt="TOTOLINK">
 
-We discovered security issues across **17** different device firmwares from **TOTOLINK**, obtaining a total of **93 CVEs**.
+We discovered security issues across **18** different device firmwares from **TOTOLINK**, obtaining a total of **93 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
 
-- **A Series**: A3000RU, A3100R, A3300R, A3600R, A3700R, A7000R
+- **A Series**: A3000R, A3000RU, A3100R, A3300R, A3600R, A3700R, A7000R
 - **CA Series**: CA300-PoE
 - **CP Series**: CP450, CP900
 - **EX Series**: EX200, EX1200L
@@ -132,12 +139,12 @@ We discovered security issues across **17** different device firmwares from **TO
 
 | Category | CVEs |
 | :--- | :---: |
-| Buffer Overflow | ~53 |
-| Command Injection | ~11 |
+| Buffer Overflow | 59 |
+| Command Injection | 21 |
 | Improper Access Controls | 9 |
 | Hard-Coded Password | 7 |
-| Information Disclosure | ~14 |
-| **Total** | **94** |
+| Information Disclosure | 5 |
+| **Total** | **101** |
 
 </details>
 
