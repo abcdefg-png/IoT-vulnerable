@@ -31,6 +31,19 @@ Our research team has conducted an extensive security analysis on IoT devices fr
 
 ---
 
+## 📚 Related Publications
+
+Our vulnerability discovery work is supported by the following research papers:
+
+- **IoTBec: An Accurate and Efficient Recurring Vulnerability Detection Framework for Black Box IoT Devices**
+  *NDSS 2026* | CCF-A
+
+- **FalconScope: Effective and Efficient Detection of Hidden Web Interfaces in IoT Devices**
+  *WWW 2026* | CCF-A
+
+- **FirmSV: Detecting Stored Vulnerabilities in IoT Firmware using Static Taint Analysis**
+  *CSCWD 2026* | CCF-C
+
 ## Summary by Vendor
 
 | Vendor | Affected Firmwares | CVEs Assigned |
