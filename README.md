@@ -83,7 +83,7 @@ Our vulnerability discovery work is supported by the following research papers:
 
 ## Detailed Findings by Vendor
 
-### <img src="https://img.shields.io/badge/Tenda-350%20CVEs-red?style=for-the-badge" alt="Tenda">
+### <img src="https://img.shields.io/badge/Tenda-363%20CVEs-red?style=for-the-badge" alt="Tenda">
 
 We discovered security issues across **38** different device firmwares from **Tenda**, obtaining a total of **363 CVEs**.
 
@@ -116,9 +116,9 @@ We discovered security issues across **38** different device firmwares from **Te
 
 ---
 
-### <img src="https://img.shields.io/badge/TOTOLINK-93%20CVEs-orange?style=for-the-badge" alt="TOTOLINK">
+### <img src="https://img.shields.io/badge/TOTOLINK-101%20CVEs-orange?style=for-the-badge" alt="TOTOLINK">
 
-We discovered security issues across **18** different device firmwares from **TOTOLINK**, obtaining a total of **93 CVEs**.
+We discovered security issues across **18** different device firmwares from **TOTOLINK**, obtaining a total of **101 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
