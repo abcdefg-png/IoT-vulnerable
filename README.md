@@ -41,6 +41,9 @@ Our vulnerability discovery work is supported by the following research papers:
 - **FalconScope: Effective and Efficient Detection of Hidden Web Interfaces in IoT Devices**
   *WWW 2026* | CCF-A
 
+- **LoopSCC: Summarizing Complex Multi-branch Nested Loops via Periodic Oscillation Interval**
+  *ICSE 2026* | CCF-A
+
 - **FirmSV: Detecting Stored Vulnerabilities in IoT Firmware using Static Taint Analysis**
   *CSCWD 2026* | CCF-C
 
