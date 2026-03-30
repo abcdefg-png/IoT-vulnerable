@@ -38,9 +38,6 @@ Our vulnerability discovery work is supported by the following research papers:
 - **IoTBec: An Accurate and Efficient Recurring Vulnerability Detection Framework for Black Box IoT Devices**
   *NDSS 2026* | **CCF-A**
 
-- **FalconScope: Effective and Efficient Detection of Hidden Web Interfaces in IoT Devices**
-  *WWW 2026* | **CCF-A**
-
 - **Bridge: High-Order Taint Vulnerabilities Detection in Linux-based IoT Firmware**
   *IEEE S&P 2026* | **CCF-A**
 
@@ -50,43 +47,47 @@ Our vulnerability discovery work is supported by the following research papers:
 - **LoopSCC: Summarizing Complex Multi-branch Nested Loops via Periodic Oscillation Interval**
   *ICSE 2026* | **CCF-A**
 
+- **FalconScope: Effective and Efficient Detection of Hidden Web Interfaces in IoT Devices**
+  *WWW 2026* | **CCF-A**
+
+- **Hidden and Lost Control: on Security Design Risks in IoT User-Facing Matter Controller**
+  *NDSS 2025* | **CCF-A**
+
 - **FirmSV: Detecting Stored Vulnerabilities in IoT Firmware using Static Taint Analysis**
   *CSCWD 2026* | CCF-C
 
-<sub>*Papers under submission: ISSTA, TSE*</sub>
+<sub>*Papers under submission: ASE, TDSC*</sub>
 
 ## Summary by Vendor
 
-<table>
-<tr><th align="center">Vendor</th><th align="center">Affected Firmwares</th><th align="center">CVEs Assigned</th></tr>
-<tr><td align="center"><b>Tenda</b></td><td align="center">37</td><td align="center">416</td></tr>
-<tr><td align="center"><b>TOTOLINK</b></td><td align="center">25</td><td align="center">136</td></tr>
-<tr><td align="center"><b>D-Link</b></td><td align="center">29</td><td align="center">150</td></tr>
-<tr><td align="center"><b>TP-LINK</b></td><td align="center">6</td><td align="center">8</td></tr>
-<tr><td align="center"><b>Linksys</b></td><td align="center">8</td><td align="center">61</td></tr>
-<tr><td align="center"><b>NETGEAR</b></td><td align="center">17</td><td align="center">63</td></tr>
-<tr><td align="center"><b>Motorola</b></td><td align="center">1</td><td align="center">1</td></tr>
-<tr><td align="center"><b>Cisco</b></td><td align="center">4</td><td align="center">35</td></tr>
-<tr><td align="center"><b>ARRIS</b></td><td align="center">4</td><td align="center">13</td></tr>
-<tr><td align="center"><b>Belkin</b></td><td align="center">1</td><td align="center">14</td></tr>
-<tr><td align="center"><b>Total</b></td><td align="center"><b>132</b></td><td align="center"><b>897</b></td></tr>
-<tr bgcolor="#f3e8ff"><td align="center"><b>Matter Protocol</b></td><td align="center">10 vendors</td><td align="center">confirmed by vendor</td></tr>
-</table>
+| Vendor | Affected Firmwares | CVEs Assigned |
+| :---: | :---: | :---: |
+| **Tenda** | 37 | 416 |
+| **TOTOLINK** | 25 | 136 |
+| **D-Link** | 29 | 150 |
+| **TP-LINK** | 6 | 8 |
+| **Linksys** | 8 | 61 |
+| **NETGEAR** | 17 | 63 |
+| **Motorola** | 1 | 1 |
+| **Cisco** | 4 | 35 |
+| **ARRIS** | 4 | 13 |
+| **Belkin** | 1 | 14 |
+| **Total** | **132** | **897** |
+| 🟣 **Matter Protocol** | 10 vendors | confirmed by vendor |
 
 ---
 
 ## Vulnerability Type Distribution
 
-<table>
-<tr><th align="left">Vulnerability Type</th><th align="left">Description</th></tr>
-<tr><td>💥 <b>Buffer Overflow</b></td><td>The most prevalent type, accounting for the majority of all findings</td></tr>
-<tr><td>💉 <b>Command Injection</b></td><td>Remote command execution through improperly sanitized inputs</td></tr>
-<tr><td>🔓 <b>Improper Access Controls</b></td><td>Unauthorized access to restricted functionalities</td></tr>
-<tr><td>📂 <b>Information Disclosure</b></td><td>Exposure of sensitive device or configuration data</td></tr>
-<tr><td>🔑 <b>Hard-Coded Password</b></td><td>Embedded credentials in firmware</td></tr>
-<tr><td>🔄 <b>CSRF</b></td><td>Cross-Site Request Forgery enabling unauthorized actions</td></tr>
-<tr bgcolor="#f3e8ff"><td>🧩 <b>UMCCI Flaws</b></td><td>Unauthorized Matter Cluster Command Injection flaws in Matter protocol implementations</td></tr>
-</table>
+| Vulnerability Type | Description |
+| :--- | :--- |
+| 💥 **Buffer Overflow** | The most prevalent type, accounting for the majority of all findings |
+| 💉 **Command Injection** | Remote command execution through improperly sanitized inputs |
+| 🔓 **Improper Access Controls** | Unauthorized access to restricted functionalities |
+| 📂 **Information Disclosure** | Exposure of sensitive device or configuration data |
+| 🔑 **Hard-Coded Password** | Embedded credentials in firmware |
+| 🔄 **CSRF** | Cross-Site Request Forgery enabling unauthorized actions |
+| 🟣 **UMCCI Flaws** | User-facing Matter control capabilities and interfaces flaws in Matter protocol implementations |
 
 ---
 
@@ -94,21 +95,21 @@ Our vulnerability discovery work is supported by the following research papers:
 
 ### <img src="https://img.shields.io/badge/Matter%20Protocol-10%20Vendors-blueviolet?style=for-the-badge" alt="Matter Protocol">
 
-We identified **UMCCI (Unauthorized Matter Cluster Command Injection)** flaws across **10** vendors' Matter protocol implementations. All findings have been **confirmed by the respective vendors**.
+We identified **UMCCI (User-facing Matter control capabilities and interfaces)** flaws across **10** vendors' Matter protocol implementations. All findings have been **confirmed by the respective vendors**.
 
 <details>
 <summary><b>📡 Affected Vendors (Click to Expand)</b></summary>
 
 - Apple
-- Google
 - Samsung
 - Xiaomi
 - Amazon
 - Tuya
-- uHome+
+- Uascent
 - Aqara
-- WiZ
-- Vivo
+- Signify
+- VIVO
+- Electro Cirkel Retail B.V.
 
 </details>
 
