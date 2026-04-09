@@ -15,13 +15,13 @@ Our research team has conducted an extensive security analysis on IoT devices fr
 </td>
 <td align="center" width="200">
 <br>
-<h1>132</h1>
+<h1>133</h1>
 <b>📡 Device Firmwares</b>
 <br><br>
 </td>
 <td align="center" width="200">
 <br>
-<h1>897</h1>
+<h1>908</h1>
 <b>🏷️ CVEs Assigned</b>
 <br><br>
 </td>
@@ -62,9 +62,9 @@ Our vulnerability discovery work is supported by the following research papers:
 
 | Vendor | Affected Firmwares | CVEs Assigned |
 | :---: | :---: | :---: |
-| **Tenda** | 37 | 416 |
+| **Tenda** | 37 | 418 |
 | **TOTOLINK** | 25 | 136 |
-| **D-Link** | 29 | 150 |
+| **D-Link** | 30 | 159 |
 | **TP-LINK** | 6 | 8 |
 | **Linksys** | 8 | 61 |
 | **NETGEAR** | 17 | 63 |
@@ -72,7 +72,7 @@ Our vulnerability discovery work is supported by the following research papers:
 | **Cisco** | 4 | 35 |
 | **ARRIS** | 4 | 13 |
 | **Belkin** | 1 | 14 |
-| **Total** | **132** | **897** |
+| **Total** | **133** | **908** |
 | 🟣 **Matter Protocol** | 10 vendors | confirmed by vendor |
 
 ---
@@ -95,7 +95,7 @@ Our vulnerability discovery work is supported by the following research papers:
 
 ### <img src="https://img.shields.io/badge/Matter%20Protocol-10%20Vendors-blueviolet?style=for-the-badge" alt="Matter Protocol">
 
-We identified **UMCCI (User-facing Matter control capabilities and interfaces)** flaws across **10** vendors' Matter protocol implementations. All findings have been **confirmed by the respective vendors**.
+We reveal a new kind of design flaw in user-facing Matter control capabilities and interfaces, called UMCCI flaws, which are exploitable vulnerabilities in the design space and seriously jeopardize necessary control and surveillance capabilities of Matter-enabled devices for IoT users.
 
 <details>
 <summary><b>📡 Affected Vendors (Click to Expand)</b></summary>
@@ -115,9 +115,9 @@ We identified **UMCCI (User-facing Matter control capabilities and interfaces)**
 
 ---
 
-### <img src="https://img.shields.io/badge/Tenda-416%20CVEs-red?style=for-the-badge" alt="Tenda">
+### <img src="https://img.shields.io/badge/Tenda-418%20CVEs-red?style=for-the-badge" alt="Tenda">
 
-We discovered security issues across **37** different device firmwares from **Tenda**, obtaining a total of **416 CVEs**.
+We discovered security issues across **37** different device firmwares from **Tenda**, obtaining a total of **418 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
@@ -131,12 +131,12 @@ We discovered security issues across **37** different device firmwares from **Te
 
 | Category | CVEs |
 | :--- | :---: |
-| Buffer Overflow | 365 |
+| Buffer Overflow | 367 |
 | Command Injection | 36 |
 | Improper Access Controls | 10 |
 | CSRF | 5 |
 | Information Disclosure | 2 |
-| **Total** | **416** |
+| **Total** | **418** |
 
 </details>
 
@@ -169,14 +169,14 @@ We discovered security issues across **25** different device firmwares from **TO
 
 ---
 
-### <img src="https://img.shields.io/badge/D--Link-150%20CVEs-blue?style=for-the-badge" alt="D-Link">
+### <img src="https://img.shields.io/badge/D--Link-159%20CVEs-blue?style=for-the-badge" alt="D-Link">
 
-We discovered security issues across **29** different device firmwares from **D-Link**, obtaining a total of **150 CVEs**.
+We discovered security issues across **30** different device firmwares from **D-Link**, obtaining a total of **159 CVEs**.
 
 <details>
 <summary><b>📡 Affected Product Lines (Click to Expand)</b></summary>
 
-- DCS-932L, DI-7200G, DIR-605L, DIR-618, DIR-619L, DIR-816, DIR-823G, DIR-823Pro, DIR-878, DIR-882, DNR-202L, DNR-322L, DNS-1100-4, DNS-120, DNS-1200-05, DNS-1550-04, DNS-315L, DNS-320, DNS-320L, DNS-320LW, DNS-321, DNS-323, DNS-325, DNS-326, DNS-327L, DNS-340L, DNS-343, DNS-345, DNS-726-4
+- DCS-932L, DI-7200G, DIR-513, DIR-605L, DIR-618, DIR-619L, DIR-816, DIR-823G, DIR-823Pro, DIR-878, DIR-882, DNR-202L, DNR-322L, DNS-1100-4, DNS-120, DNS-1200-05, DNS-1550-04, DNS-315L, DNS-320, DNS-320L, DNS-320LW, DNS-321, DNS-323, DNS-325, DNS-326, DNS-327L, DNS-340L, DNS-343, DNS-345, DNS-726-4
 
 </details>
 
@@ -185,11 +185,11 @@ We discovered security issues across **29** different device firmwares from **D-
 
 | Category | CVEs |
 | :--- | :---: |
-| Buffer Overflow | 72 |
+| Buffer Overflow | 81 |
 | Improper Access Controls | 62 |
 | Command Injection | 44 |
 | Information Disclosure | 6 |
-| **Total** | **150** |
+| **Total** | **159** |
 
 </details>
 
